@@ -179,7 +179,7 @@ Choisissez un username qui pourra être montré à un employeur !
 
 Connectez-vous à votre compte sur <https://github.com/> puis envoyez-moi votre username sur teams que je puisse vous rajouter au projet :
 
-<https://github.com/WebDevCF2m2025>
+<https://github.com/WebDevCF2m2026>
 
 ### Lier votre compte et votre PC
 

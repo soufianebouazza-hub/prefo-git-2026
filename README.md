@@ -183,7 +183,13 @@ Connectez-vous à votre compte sur <https://github.com/> puis envoyez-moi votre 
 
 ### Lier votre compte et votre PC
 
-Dans la console Git ou Powershell, tapez cette ligne avec le mail utilisé pour se connecter à github :
+Dans la console Git ou Powershell, identifiez votre ordinateur avec votre username et mail github :
+
+    git config --global user.name "votre username"
+    git config --global user.email "votremail@utilisepourgithub.com"
+
+
+Tapez ensuite cette ligne avec le mail utilisé pour se connecter à github :
 
     ssh-keygen -t ed25519 -C "votremail@utilisepourgithub.com"
 
@@ -201,12 +207,10 @@ Cliquez sur ce lien puis pour créer une clef SSH sur github :
 
 <https://github.com/settings/ssh/new>
 
-Et rajoutez la clef publique que vous trouverez dans le champ key en collant le résultat de la commande précédente.
+Et rajoutez la clef publique que vous trouverez dans le champ key en collant le résultat de la commande précédente. Nommez la clef comme vous le souhaitez (par exemple "PC de formation CF2m").
 
-Dans cette même console, liez votre ordinateur avec github :
+Dorénavant, vous pourrez cloner des dépôts (repositories) en SSH et non plus en HTTPS, ce qui évitera de taper votre login et mot de passe à chaque fois.
 
-    git config --global user.name "votre username"
-    git config --global user.email votremail@utilisepourgithub.com
 
 **Si tout va bien, nous allons pouvoir commencer à travailler ensemble !**
 

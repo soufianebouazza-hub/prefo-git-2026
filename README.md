@@ -2,6 +2,8 @@
 
 **Cours de préformation sur les commandes (de base) UNIX et DOS, et sur GIT - GITHUB**
 
+[Bonnes pratiques de GIT et GITHUB](bonnes-pratiques-git-github.md)
+
 ## Arborescence
 
 - [UNIX](#unix) (LINUX - MAC - etc...)
